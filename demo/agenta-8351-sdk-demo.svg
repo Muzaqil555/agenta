@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="844" height="320" viewBox="0 0 844 320">
+<title>Agenta SDK gateway error regression test results</title>
+<desc>The SDK preserves both refusal codes and normalized statuses. All four focused pytest cases passed.</desc>
+<rect width="844" height="320" rx="16" fill="#152131"/>
+<path d="M32 95H812M32 263H812" stroke="#39485c"/>
+<g fill="#f1f5f9" font-family="monospace" font-size="15" xml:space="preserve">
+<text x="32" y="43" font-size="24" font-weight="bold">Agenta SDK · gateway credential refusal</text>
+<text x="32" y="73" fill="#acbccd">Recorded pytest results · PR #8351 · commit 234561a1 · Python 3.12</text>
+<text x="32" y="120" fill="#acbccd">Gateway response                 Normalized SDK outcome</text>
+<text x="32" y="154">403 policy_denied</text>
+<text x="344" y="154">424 policy_denied</text>
+<text x="754" y="154" fill="#86efac">PASS</text>
+<text x="32" y="185">403 access_denied</text>
+<text x="344" y="185">403 access_denied</text>
+<text x="754" y="185" fill="#86efac">PASS</text>
+<text x="32" y="216">422 endpoint_inactive</text>
+<text x="344" y="216">422 endpoint_inactive</text>
+<text x="754" y="216" fill="#86efac">PASS</text>
+<text x="32" y="247">Transport error, no codes</text>
+<text x="344" y="247">status_code=None, failure_code=None</text>
+<text x="754" y="247" fill="#86efac">PASS</text>
+<text x="32" y="290" fill="#86efac" font-weight="bold">4 passed</text>
+</g>
+</svg>
